@@ -1,0 +1,18 @@
+[submodule "start/ale"]
+	path = start/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "start/asyncrun.vim"]
+	path = start/asyncrun.vim
+	url = https://github.com/skywind3000/asyncrun.vim.git
+[submodule "start/completor.vim"]
+	path = start/completor.vim
+	url = https://github.com/maralla/completor.vim.git
+[submodule "start/python-mode"]
+	path = start/python-mode
+	url = https://github.com/python-mode/python-mode.git
+[submodule "opt/vim-colors-solarized"]
+	path = opt/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "opt/molokai"]
+	path = opt/molokai
+	url = https://github.com/tomasr/molokai.git
