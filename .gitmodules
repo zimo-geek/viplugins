@@ -16,3 +16,12 @@
 [submodule "opt/molokai"]
 	path = opt/molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule "start/vim-gutentags"]
+	path = start/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags.git
+[submodule "start/ack.vim"]
+	path = start/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "start/vim-latex"]
+	path = start/vim-latex
+	url = https://github.com/vim-latex/vim-latex.git
