@@ -10,6 +10,12 @@
 [submodule "start/python-mode"]
 	path = opt/python-mode
 	url = https://github.com/python-mode/python-mode.git
+[submodule "start/vim-gutentags"]
+	path = start/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags.git
+[submodule "start/ack.vim"]
+	path = start/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
 [submodule "opt/vim-colors-solarized"]
 	path = opt/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
