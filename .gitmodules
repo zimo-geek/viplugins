@@ -28,3 +28,6 @@
 [submodule "start/vim-latex"]
 	path = start/vim-latex
 	url = https://github.com/vim-latex/vim-latex.git
+[submodule "start/YouCompleteMe"]
+	path = start/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
