@@ -4,12 +4,6 @@
 [submodule "start/asyncrun.vim"]
 	path = start/asyncrun.vim
 	url = https://github.com/skywind3000/asyncrun.vim.git
-[submodule "start/completor.vim"]
-	path = start/completor.vim
-	url = https://github.com/maralla/completor.vim.git
-[submodule "start/python-mode"]
-	path = opt/python-mode
-	url = https://github.com/python-mode/python-mode.git
 [submodule "start/ack.vim"]
 	path = start/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
@@ -22,9 +16,6 @@
 [submodule "start/vim-gutentags"]
 	path = start/vim-gutentags
 	url = https://github.com/ludovicchabant/vim-gutentags.git
-[submodule "start/ack.vim"]
-	path = start/ack.vim
-	url = https://github.com/mileszs/ack.vim.git
 [submodule "start/vim-latex"]
 	path = start/vim-latex
 	url = https://github.com/vim-latex/vim-latex.git
