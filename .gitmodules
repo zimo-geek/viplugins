@@ -22,3 +22,6 @@
 [submodule "start/YouCompleteMe"]
 	path = start/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule "start/gutentags_plus"]
+	path = start/gutentags_plus
+	url = https://github.com/skywind3000/gutentags_plus
