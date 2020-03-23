@@ -25,3 +25,9 @@
 [submodule "start/gutentags_plus"]
 	path = start/gutentags_plus
 	url = https://github.com/skywind3000/gutentags_plus
+[submodule "start/vimtex"]
+	path = start/vimtex
+	url = https://github.com/lervag/vimtex.git
+[submodule "start/ultisnips"]
+	path = start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
