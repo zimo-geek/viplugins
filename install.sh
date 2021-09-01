@@ -52,6 +52,8 @@ vim -c ":CocInstall coc-json" -c ":q"
 vim -c ":CocInstall coc-pyright" -c ":q"
 # bash
 vim -c ":CocInstall coc-sh" -c ":q"
+# explorer
+vim -c ":CocInstall coc-explorer" -c ":q" 
 
 if [[ $ENABLE_CLANGD -eq 1 ]];then
     # c++/c
