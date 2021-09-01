@@ -133,3 +133,5 @@ if [[ $ENABLE_RG -eq 1 ]];then
         ;;
     esac
 fi
+
+cp -f vimrc ~/.vimrc
