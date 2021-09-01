@@ -13,15 +13,31 @@
 [submodule "opt/molokai"]
 	path = opt/molokai
 	url = https://github.com/tomasr/molokai.git
-[submodule "start/vim-gutentags"]
-	path = start/vim-gutentags
-	url = https://github.com/ludovicchabant/vim-gutentags.git
-[submodule "start/vim-latex"]
-	path = start/vim-latex
-	url = https://github.com/vim-latex/vim-latex.git
+# [submodule "start/vim-gutentags"]
+# 	path = start/vim-gutentags
+# 	url = https://github.com/ludovicchabant/vim-gutentags.git
+# [submodule "start/gutentags_plus"]
+# 	path = start/gutentags_plus
+# 	url = https://github.com/skywind3000/gutentags_plus
 [submodule "start/YouCompleteMe"]
 	path = start/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe.git
-[submodule "start/gutentags_plus"]
-	path = start/gutentags_plus
-	url = https://github.com/skywind3000/gutentags_plus
+[submodule "opt/vim-solarized8"]
+	path = opt/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8.git
+[submodule "start/LeaderF"]
+	path = start/LeaderF
+	url = https://github.com/Yggdroot/LeaderF.git
+[submodule "start/vimtex"]
+	path = start/vimtex
+	url = https://github.com/lervag/vimtex.git
+[submodule "start/ultisnips"]
+	path = start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "start/auto-pairs"]
+	path = start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "start/coc.nvim"]
+	path = start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+	branch = release
