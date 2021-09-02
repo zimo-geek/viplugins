@@ -13,9 +13,6 @@
 [submodule "opt/molokai"]
 	path = opt/molokai
 	url = https://github.com/tomasr/molokai.git
-[submodule "start/YouCompleteMe"]
-	path = start/YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "opt/vim-solarized8"]
 	path = opt/vim-solarized8
 	url = https://github.com/lifepillar/vim-solarized8.git
@@ -35,3 +32,6 @@
 	path = start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
 	branch = release
+[submodule "start/vim-snippets"]
+	path = start/vim-snippets
+	url = https://github.com/honza/vim-snippets.git

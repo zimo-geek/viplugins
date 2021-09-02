@@ -11,7 +11,6 @@ Usage() {
   echo "    --enable-rg                    Enable install ripgrep"
 }
 
-
 ENABLE_CLANGD=0
 ENABLE_SYMBOL=0
 ENABLE_RG=0
@@ -47,17 +46,19 @@ cd start/LeaderF && ./install.sh && cd -
 
 # Step3 install Coc.nvim extension
 # json
-vim -c ":CocInstall coc-json" -c ":q"
+vim -c ":CocInstall coc-json coc-pyright coc-sh coc-yaml coc-explorer"
 # python
-vim -c ":CocInstall coc-pyright" -c ":q"
+# vim -c ":CocInstall coc-pyright" -c ":q"
 # bash
-vim -c ":CocInstall coc-sh" -c ":q"
+# vim -c ":CocInstall coc-sh" -c ":q"
+# yaml 
+# vim -c ":CocInstall coc-yaml" -c ":q"
 # explorer
-vim -c ":CocInstall coc-explorer" -c ":q" 
+# vim -c ":CocInstall coc-explorer" -c ":q" 
 
 if [[ $ENABLE_CLANGD -eq 1 ]];then
     # c++/c
-    vim -c ":CocInstall coc-clangd" -c ":q"
+    vim -c ":CocInstall coc-clangd"
     
     # Install clangd
     if [ ! -x "$(command -v clangd)" ];then
@@ -70,9 +71,6 @@ if [[ $ENABLE_CLANGD -eq 1 ]];then
     
     fi
 fi
-
-# typescript
-vim -c ":CocInstall coc-tsserver" -c ":q"
 
 
 if [[ $ENABLE_SYMBOL -eq 1 ]];then
@@ -98,7 +96,9 @@ if [[ $ENABLE_SYMBOL -eq 1 ]];then
         libseccomp-devel \
         jansson-devel \
         libyaml-devel \
-        libxml2-devel
+        libxml2-devel \
+        libtool-ltdl-devel \
+        gperf bison flex
         ;;
     *)
         exit 1

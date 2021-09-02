@@ -157,7 +157,6 @@ set smartindent
 
 filetype plugin indent on
 
-set iskeyword+=.
 set fileencodings=utf-8
 set termencoding=utf-8
 set encoding=utf8
@@ -173,9 +172,9 @@ let g:vimtex_quickfix_mode=0
 set conceallevel=1
 let g:tex_conceal='abdmg'
 
-let g:UltiSnipsExpandTrigger = '<tab>'
-let g:UltiSnipsJumpForwardTrigger = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+let g:UltiSnipsExpandTrigger = 'c-e'
+let g:UltiSnipsJumpForwardTrigger = '<c-f>'
+let g:UltiSnipsJumpBackwardTrigger = '<c-d>'
 
 "for ack 
 " let g:ackprg = 'ag --nogroup --nocolor --column'
